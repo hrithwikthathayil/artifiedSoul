@@ -4,18 +4,19 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - Yummy Bootstrap Template</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+
+  <title>cakes boutique cheruthuruthy</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -24,179 +25,141 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Main CSS File -->
+  <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Yummy
+  * Updated: Sep 18 2023 with Bootstrap v5.3.2
   * Template URL: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
 </head>
 
-<body class="index-page">
+<body>
 
-  <header id="header" class="header d-flex align-items-center sticky-top">
-    <div class="container position-relative d-flex align-items-center justify-content-between">
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Yummy</h1>
-        <span>.</span>
+        <img src="assets/img/menu/logo.png" alt="">
+        <h1>cakes boutique</h1>
       </a>
 
-      <nav id="navmenu" class="navmenu">
+      <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="#hero" class="active">Home<br></a></li>
+          <li><a href="#hero">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#menu">Menu</a></li>
-          <li><a href="#events">Events</a></li>
-          <li><a href="#chefs">Chefs</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
+          <li><a href="#events">Magic Cakes</a></li>
+          <li><a href="#book-a-table">Order Now</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
+      </nav><!-- .navbar -->
 
-      <a class="btn-getstarted" href="index.html#book-a-table">Book a Table</a>
+      
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 
     </div>
-  </header>
+  </header><!-- End Header -->
 
-  <main class="main">
-
-    <!-- Hero Section -->
-    <section id="hero" class="hero section light-background">
-
-      <div class="container">
-        <div class="row gy-4 justify-content-center justify-content-lg-between">
-          <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center">
-            <h1 data-aos="fade-up">Enjoy Your Healthy<br>Delicious Food</h1>
-            <p data-aos="fade-up" data-aos-delay="100">We are team of talented designers making websites with Bootstrap</p>
-            <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
-              <a href="#book-a-table" class="btn-get-started">Booka a Table</a>
-              <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
-            </div>
-          </div>
-          <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out">
-            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center section-bg">
+    <div class="container">
+      <div class="row justify-content-between gy-5">
+        <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
+          <h2 data-aos="fade-up">Discover Divine Delights at<br>Cakes Boutique</h2>
+          <p data-aos="fade-up" data-aos-delay="100">Welcome to Cakesboutique, where passion meets perfection in every slice. Elevate your moments with our artisanal creations, meticulously baked to sweeten your life.</p>
+          <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+            <a href="#book-a-table" class="btn-book-a-table">Order now</a>
           </div>
         </div>
+        <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
+          <img src="assets/img/fruits-cake__1_-removebg-preview.png" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="300">
+        </div>
       </div>
+    </div>
+  </section><!-- End Hero Section -->
 
-    </section><!-- /Hero Section -->
+  <main id="main">
 
-    <!-- About Section -->
-    <section id="about" class="about section">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>About Us<br></h2>
-        <p><span>Learn More</span> <span class="description-title">About Us</span></p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
+        <div class="section-header">
+          <h2>About Us</h2>
+          <p>Learn More <span>About Us</span></p>
+        </div>
 
         <div class="row gy-4">
-          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/about.jpg" class="img-fluid mb-4" alt="">
-            <div class="book-a-table">
-              <h3>Book a Table</h3>
-              <p>+1 5589 55488 55</p>
+          <div class="col-lg-7 position-relative about-img" style="background-image: url(assets/img/2150727767\ \(1\).jpg) ;" data-aos="fade-up" data-aos-delay="150">
+            <div class="call-us position-absolute">
+              <h4>Book Your Cake Now</h4>
+              <p>+91 98469 55099</p>
             </div>
           </div>
-          <div class="col-lg-5" data-aos="fade-up" data-aos-delay="250">
+          <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
             <div class="content ps-0 ps-lg-5">
               <p class="fst-italic">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua.
+                Welcome to Cakesboutique, nestled in the heart of Cheruthuruthy, Thrissur District. With a legacy spanning three years, we take pride in being purveyors of exquisite baked creations. From delectable pizzas to luscious puddings and the authentic taste of kunaffa, our kitchen is a haven for culinary delights.
               </p>
-              <ul>
-                <li><i class="bi bi-check-circle-fill"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-                <li><i class="bi bi-check-circle-fill"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-                <li><i class="bi bi-check-circle-fill"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
-              </ul>
-              <p>
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
-              </p>
-
               <div class="position-relative mt-4">
                 <img src="assets/img/about-2.jpg" class="img-fluid" alt="">
-                <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
               </div>
             </div>
           </div>
         </div>
 
       </div>
+    </section><!-- End About Section -->
 
-    </section><!-- /About Section -->
-
-    <!-- Why Us Section -->
-    <section id="why-us" class="why-us section light-background">
-
-      <div class="container">
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us section-bg">
+      <div class="container" data-aos="fade-up">
 
         <div class="row gy-4">
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="why-box">
-              <h3>Why Choose Yummy</h3>
+              <h3>Why Choose Cakesboutique?</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
+                Over the past three years, we've embarked on a delightful journey of baking perfection. With a commitment to quality and a sprinkle of creativity, Cakesboutique has become synonymous with exceptional taste and culinary craftsmanship.
               </p>
               <div class="text-center">
-                <a href="#" class="more-btn"><span>Learn More</span> <i class="bi bi-chevron-right"></i></a>
+                <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
               </div>
             </div>
           </div><!-- End Why Box -->
 
-          <div class="col-lg-8 d-flex align-items-stretch">
-            <div class="row gy-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-8 d-flex align-items-center">
+            <div class="row gy-4">
 
-              <div class="col-xl-4">
+              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="200">
                 <div class="icon-box d-flex flex-column justify-content-center align-items-center">
                   <i class="bi bi-clipboard-data"></i>
-                  <h4>Corporis voluptates officia eiusmod</h4>
-                  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                  <h4>Our Signature Touch</h4>
+                  <p>What sets us apart is not just the ingredients we use, but the passion and dedication that goes into every creation. Our skilled bakers infuse love into every batter, and each cake is a testament to our commitment to delivering an unparalleled culinary experience.</p>
                 </div>
               </div><!-- End Icon Box -->
 
               <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
                 <div class="icon-box d-flex flex-column justify-content-center align-items-center">
                   <i class="bi bi-gem"></i>
-                  <h4>Ullamco laboris ladore lore pan</h4>
-                  <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                  <h4>Our Milestones</h4>
+                  <p>Having served over 800 clients, we take pride in having delivered more than 1000 baked items to delighted patrons. It's not just about the numbers; it's about the smiles we've earned and the moments we've sweetened with our confections.</p>
                 </div>
               </div><!-- End Icon Box -->
 
               <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
                 <div class="icon-box d-flex flex-column justify-content-center align-items-center">
                   <i class="bi bi-inboxes"></i>
-                  <h4>Labore consequatur incidid dolore</h4>
-                  <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                  <h4>Join Us in the Celebration</h4>
+                  <p>At Cakesboutique, we invite you to join us in the celebration of flavors, textures, and moments. Whether it's a special occasion or a simple craving, our diverse range of baked goods is designed to elevate your experience and leave a lasting impression.</p>
                 </div>
               </div><!-- End Icon Box -->
 
@@ -206,42 +169,38 @@
         </div>
 
       </div>
+    </section><!-- End Why Us Section -->
 
-    </section><!-- /Why Us Section -->
-
-    <!-- Stats Section -->
-    <section id="stats" class="stats section dark-background">
-
-      <img src="assets/img/stats-bg.jpg" alt="" data-aos="fade-in">
-
-      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+    <!-- ======= Stats Counter Section ======= -->
+    <section id="stats-counter" class="stats-counter">
+      <div class="container" data-aos="zoom-out">
 
         <div class="row gy-4">
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+              <span data-purecounter-start="0" data-purecounter-end="832" data-purecounter-duration="1" class="purecounter"></span>
               <p>Clients</p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Projects</p>
+              <span data-purecounter-start="0" data-purecounter-end="1021" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Bakes</p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Hours Of Support</p>
+              <span data-purecounter-start="0" data-purecounter-end="1253" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Day Of Journey</p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
+              <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
               <p>Workers</p>
             </div>
           </div><!-- End Stats Item -->
@@ -249,356 +208,377 @@
         </div>
 
       </div>
+    </section><!-- End Stats Counter Section -->
 
-    </section><!-- /Stats Section -->
+    <!-- ======= Menu Section ======= -->
+    <section id="menu" class="menu">
+      <div class="container" data-aos="fade-up">
 
-    <!-- Menu Section -->
-    <section id="menu" class="menu section">
+        <div class="section-header">
+          <h2>Our Menu</h2>
+          <p>Check Our <span>Yummy Menu</span></p>
+        </div>
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Our Menu</h2>
-        <p><span>Check Our</span> <span class="description-title">Yummy Menu</span></p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <ul class="nav nav-tabs d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+        <ul class="nav nav-tabs d-flex justify-content-center" data-aos="fade-up" data-aos-delay="200">
 
           <li class="nav-item">
             <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#menu-starters">
-              <h4>Starters</h4>
+              <h4>Cakes</h4>
             </a>
           </li><!-- End tab nav item -->
 
           <li class="nav-item">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-breakfast">
-              <h4>Breakfast</h4>
+              <h4>Kunafa</h4>
             </a><!-- End tab nav item -->
-
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-lunch">
-              <h4>Lunch</h4>
-            </a>
-          </li><!-- End tab nav item -->
 
           <li class="nav-item">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-dinner">
-              <h4>Dinner</h4>
+              <h4>Pizza</h4>
             </a>
           </li><!-- End tab nav item -->
 
         </ul>
 
-        <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+        <div class="tab-content" data-aos="fade-up" data-aos-delay="300">
 
           <div class="tab-pane fade active show" id="menu-starters">
 
             <div class="tab-header text-center">
               <p>Menu</p>
-              <h3>Starters</h3>
+              <h3>Cakes</h3>
             </div>
 
             <div class="row gy-5">
 
               <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Magnam Tiste</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
+                <a href="assets/img/menu/whiteTruffle.jpg" class="glightbox"><img src="assets/img/menu/whiteTruffle.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>White truffle</h4>
                 <p class="price">
-                  $5.95
+                  ₹800/-
                 </p>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Aut Luia</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
+                <a href="assets/img/menu/blueBerry.jpg" class="glightbox"><img src="assets/img/menu/blueBerry.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Blueberry</h4>
                 <p class="price">
-                  $14.95
+                  ₹800/-
                 </p>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img src="assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Est Eligendi</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
+                <a href="assets/img/menu/lotusBiscoff.jpg" class="glightbox"><img src="assets/img/menu/lotusBiscoff.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Lotus biscoff</h4>
                 <p class="price">
-                  $8.95
+                  ₹1700/-
                 </p>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img src="assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
+                <a href="assets/img/menu/whiteForest.jpg" class="glightbox"><img src="assets/img/menu/whiteForest.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Whiteforest</h4>
                 <p class="price">
-                  $12.95
+                  ₹500/-
                 </p>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img src="assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
+                <a href="assets/img/menu/blackForest.jpg" class="glightbox"><img src="assets/img/menu/blackForest.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Blackforest</h4>
                 <p class="price">
-                  $12.95
+                  ₹500/-
                 </p>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-6.png" class="glightbox"><img src="assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Laboriosam Direva</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
+                <a href="assets/img/menu/vanilla.jpg" class="glightbox"><img src="assets/img/menu/vanilla.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Vanilla</h4>
                 <p class="price">
-                  $9.95
+                  ₹450/-
                 </p>
               </div><!-- Menu Item -->
 
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/Redvelvet.jpg" class="glightbox"><img src="assets/img/menu/Redvelvet.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Redvelvet</h4>
+                <p class="price">
+                  ₹700/-
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/kulifi.jpg" class="glightbox"><img src="assets/img/menu/kulifi.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Kulfi</h4>
+                <p class="price">
+                  ₹1150/-
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/snickers.jpg" class="glightbox"><img src="assets/img/menu/snickers.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Snickers</h4>
+                <p class="price">
+                  ₹1100/-
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/nuttyBubble.jpg" class="glightbox"><img src="assets/img/menu/nuttyBubble.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Nuttybubble</h4>
+                <p class="price">
+                  ₹900/-
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/choclate.jpg" class="glightbox"><img src="assets/img/menu/choclate.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Choclate</h4>
+                <p class="price">
+                  ₹700/-
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/Butterscotch.jpg" class="glightbox"><img src="assets/img/menu/Butterscotch.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Butterscotch</h4>
+                <p class="price">
+                  ₹800/-
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/Tresleaches.jpg" class="glightbox"><img src="assets/img/menu/Tresleaches.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Tresleaches</h4>
+                <p class="price">
+                  ₹950/-
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/rafello.jpg" class="glightbox"><img src="assets/img/menu/rafello.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Rafello</h4>
+                <p class="price">
+                  ₹1000/-
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/choclateTruffle.jpg" class="glightbox"><img src="assets/img/menu/choclateTruffle.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Choclate Truffle</h4>
+                <p class="price">
+                  ₹800/-
+
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/Kitkat.jpg" class="glightbox"><img src="assets/img/menu/Kitkat.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Kitkat</h4>
+                <p class="price">
+                  ₹1250/-
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/spanishDelight.jpg" class="glightbox"><img src="assets/img/menu/spanishDelight.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>spanish delight</h4>
+                <p class="price">
+                  ₹950/-
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/ferroChoco.jpg" class="glightbox"><img src="assets/img/menu/ferroChoco.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>ferro choco</h4>
+                <p class="price">
+                  ₹1300/-
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/tenderCoconut.jpg" class="glightbox"><img src="assets/img/menu/tenderCoconut.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Tender Coconut</h4>
+                <p class="price">
+                  ₹950/-
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/whiteTruffle.jpg" class="glightbox"><img src="assets/img/menu/whiteTruffle.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>white Truffle</h4>
+                <p class="price">
+                  ₹800/-
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/milkNutty.jpg" class="glightbox"><img src="assets/img/menu/milkNutty.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Milk Nutty</h4>
+                <p class="price">
+                  ₹900/-
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/Rainbow.jpg" class="glightbox"><img src="assets/img/menu/Rainbow.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Rainbow</h4>
+                <p class="price">
+                  ₹1100/-
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/vancho.jpg" class="glightbox"><img src="assets/img/menu/vancho.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Vancho</h4>
+                <p class="price">
+                  ₹850/-
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/nutella.jpg" class="glightbox"><img src="assets/img/menu/nutella.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Nutella</h4>
+                <p class="price">
+                  ₹1000/-
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/chocoButterscotch.jpg" class="glightbox"><img src="assets/img/menu/chocoButterscotch.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Choco Butterscotch</h4>
+                <p class="price">
+                  ₹850/-
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/freshFruit.jpg" class="glightbox"><img src="assets/img/menu/freshFruit.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Fresh fruit</h4>
+                <p class="price">
+                  ₹1200/-
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/pistaCustomized.jpg" class="glightbox"><img src="assets/img/menu/pistaCustomized.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Pista</h4>
+                <p class="price">
+                  ₹850/-
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/redBee.jpg" class="glightbox"><img src="assets/img/menu/redBee.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Redbee</h4>
+                <p class="price">
+                  ₹900/-
+                </p>
+              </div><!-- Menu Item -->
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/carmel.jpg" class="glightbox"><img src="assets/img/menu/carmel.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Carmel</h4>
+                <p class="price">
+                  ₹900/-
+                </p>
+              </div><!-- Menu Item -->
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/pudding.jpg" class="glightbox"><img src="assets/img/menu/pudding.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Carrot and Dates</h4>
+                <p class="price">
+                  ₹360/-
+                </p>
+              </div><!-- Menu Item -->
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/plum.jpg" class="glightbox"><img src="assets/img/menu/plum.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Non alcoholic Plum</h4>
+                <p class="price">
+                  ₹360/-
+                </p>
+              </div><!-- Menu Item -->
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/CustardCake.jpg" class="glightbox"><img src="assets/img/menu/CustardCake.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Custard fruit</h4>
+                <p class="price">
+                  ₹1000/-
+                </p>
+              </div><!-- Menu Item -->
             </div>
           </div><!-- End Starter Menu Content -->
 
           <div class="tab-pane fade" id="menu-breakfast">
-
             <div class="tab-header text-center">
               <p>Menu</p>
-              <h3>Breakfast</h3>
+              <h3>Kunafa</h3>
             </div>
-
             <div class="row gy-5">
-
               <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Magnam Tiste</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
+                <a href="assets/img/menu/cheeseKunafa.jpg" class="glightbox"><img src="assets/img/menu/cheeseKunafa.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Cheese Kunafa(small)</h4>
                 <p class="price">
-                  $5.95
+                  ₹280/-
                 </p>
               </div><!-- Menu Item -->
-
               <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Aut Luia</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
+                <a href="assets/img/menu/cheeseKunafa.jpg" class="glightbox"><img src="assets/img/menu/cheeseKunafa.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Cheese Kunafa(medium)</h4>
                 <p class="price">
-                  $14.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img src="assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Est Eligendi</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $8.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img src="assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $12.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img src="assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $12.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-6.png" class="glightbox"><img src="assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Laboriosam Direva</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $9.95
+                  ₹550/-
                 </p>
               </div><!-- Menu Item -->
 
             </div>
           </div><!-- End Breakfast Menu Content -->
 
-          <div class="tab-pane fade" id="menu-lunch">
-
-            <div class="tab-header text-center">
-              <p>Menu</p>
-              <h3>Lunch</h3>
-            </div>
-
-            <div class="row gy-5">
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Magnam Tiste</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $5.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Aut Luia</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $14.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img src="assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Est Eligendi</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $8.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img src="assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $12.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img src="assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $12.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-6.png" class="glightbox"><img src="assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Laboriosam Direva</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $9.95
-                </p>
-              </div><!-- Menu Item -->
-
-            </div>
-          </div><!-- End Lunch Menu Content -->
-
           <div class="tab-pane fade" id="menu-dinner">
 
             <div class="tab-header text-center">
               <p>Menu</p>
-              <h3>Dinner</h3>
+              <h3>Pizza</h3>
             </div>
 
             <div class="row gy-5">
 
               <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Magnam Tiste</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
+                <a href="assets/img/menu/vegPizza.jpg" class="glightbox"><img src="assets/img/menu/vegPizza.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Veg Pizza(small)</h4>
                 <p class="price">
-                  $5.95
+                  ₹200/-
                 </p>
               </div><!-- Menu Item -->
-
               <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Aut Luia</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
+                <a href="assets/img/menu/vegPizza.jpg" class="glightbox"><img src="assets/img/menu/vegPizza.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Veg Pizza(medium)</h4>
                 <p class="price">
-                  $14.95
+                  ₹300/-
                 </p>
               </div><!-- Menu Item -->
-
               <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img src="assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Est Eligendi</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
+                <a href="assets/img/menu/vegPizza.jpg" class="glightbox"><img src="assets/img/menu/vegPizza.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Veg Pizza(large)</h4>
                 <p class="price">
-                  $8.95
+                  ₹400/-
                 </p>
               </div><!-- Menu Item -->
-
               <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img src="assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
+                <a href="assets/img/menu/chickenPizza.jpg" class="glightbox"><img src="assets/img/menu/chickenPizza.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Veg Pizza(small)</h4>
                 <p class="price">
-                  $12.95
+                  ₹250/-
                 </p>
               </div><!-- Menu Item -->
-
               <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img src="assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
+                <a href="assets/img/menu/chickenPizza.jpg" class="glightbox"><img src="assets/img/menu/chickenPizza.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Veg Pizza(medium)</h4>
                 <p class="price">
-                  $12.95
+                  ₹350/-
                 </p>
               </div><!-- Menu Item -->
-
               <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-6.png" class="glightbox"><img src="assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Laboriosam Direva</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
+                <a href="assets/img/menu/chickenPizza.jpg" class="glightbox"><img src="assets/img/menu/chickenPizza.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>Veg Pizza(large)</h4>
                 <p class="price">
-                  $9.95
+                  ₹450/-
                 </p>
               </div><!-- Menu Item -->
 
@@ -608,36 +588,18 @@
         </div>
 
       </div>
+    </section><!-- End Menu Section -->
 
-    </section><!-- /Menu Section -->
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container" data-aos="fade-up">
 
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section light-background">
+        <div class="section-header">
+          <h2>Testimonials</h2>
+          <p>What Are They <span>Saying About Us</span></p>
+        </div>
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>TESTIMONIALS</h2>
-        <p>What Are They <span class="description-title">Saying About Us</span></p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              }
-            }
-          </script>
+        <div class="slides-1 swiper" data-aos="fade-up" data-aos-delay="100">
           <div class="swiper-wrapper">
 
             <div class="swiper-slide">
@@ -647,18 +609,15 @@
                     <div class="testimonial-content">
                       <p>
                         <i class="bi bi-quote quote-icon-left"></i>
-                        <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                        I've been a loyal customer of Cakesboutique for two years now, and they never cease to amaze me. From their mouthwatering pizzas to the exquisite puddings, every item is a treat for the senses. The attention to detail and the quality of ingredients truly set them apart. Cakesboutique is my go-to for all things sweet and savory
                         <i class="bi bi-quote quote-icon-right"></i>
                       </p>
-                      <h3>Saul Goodman</h3>
-                      <h4>Ceo &amp; Founder</h4>
+                      <h3>BP Saleem</h3>
+                      <h4>Ceo &amp; Founder of Bp Designs</h4>
                       <div class="stars">
                         <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                       </div>
                     </div>
-                  </div>
-                  <div class="col-lg-2 text-center">
-                    <img src="assets/img/testimonials/testimonials-1.jpg" class="img-fluid testimonial-img" alt="">
                   </div>
                 </div>
               </div>
@@ -671,18 +630,15 @@
                     <div class="testimonial-content">
                       <p>
                         <i class="bi bi-quote quote-icon-left"></i>
-                        <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                        Cakesboutique is not just a bakery; it's an experience. The creativity and passion that go into each cake are evident in every slice. I recently ordered a custom cake for my daughter's birthday, and it exceeded all expectations. The joy on her face was priceless. Cakesboutique, you've earned a customer for life.
                         <i class="bi bi-quote quote-icon-right"></i>
                       </p>
-                      <h3>Sara Wilsson</h3>
-                      <h4>Designer</h4>
+                      <h3>Renjima</h3>
+                      <h4>HDFC Bank Staff</h4>
                       <div class="stars">
                         <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                       </div>
                     </div>
-                  </div>
-                  <div class="col-lg-2 text-center">
-                    <img src="assets/img/testimonials/testimonials-2.jpg" class="img-fluid testimonial-img" alt="">
                   </div>
                 </div>
               </div>
@@ -695,18 +651,15 @@
                     <div class="testimonial-content">
                       <p>
                         <i class="bi bi-quote quote-icon-left"></i>
-                        <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
+                        For the past two years, I've remained a dedicated patron of Cakesboutique, and their ability to consistently captivate my taste buds never fails to impress. Whether it's the delectable pizzas or the indulgent puddings, each item is a sensory delight. The meticulous attention to detail and the use of high-quality ingredients undeniably distinguish Cakesboutique. It has become my ultimate destination for a perfect blend of sweet and savory delights.
                         <i class="bi bi-quote quote-icon-right"></i>
                       </p>
-                      <h3>Jena Karlis</h3>
-                      <h4>Store Owner</h4>
+                      <h3>Karthika Ramankutty</h3>
+                      <h4>Nursing Officer</h4>
                       <div class="stars">
                         <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                       </div>
                     </div>
-                  </div>
-                  <div class="col-lg-2 text-center">
-                    <img src="assets/img/testimonials/testimonials-3.jpg" class="img-fluid testimonial-img" alt="">
                   </div>
                 </div>
               </div>
@@ -719,19 +672,16 @@
                     <div class="testimonial-content">
                       <p>
                         <i class="bi bi-quote quote-icon-left"></i>
-                        <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
+                        As a dessert enthusiast, I can confidently say that Cakesboutique is in a league of its own. The variety of options, the freshness of ingredients, and the unbeatable taste make it my top choice. I've tried everything from their classic cakes to the unique kunaffa, and each time I'm left wanting more. Cakesboutique, you've mastered the art of baking.
                         <i class="bi bi-quote quote-icon-right"></i>
                       </p>
-                      <h3>John Larson</h3>
+                      <h3>Hasna</h3>
                       <h4>Entrepreneur</h4>
                       <div class="stars">
                         <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-2 text-center">
-                    <img src="assets/img/testimonials/testimonials-4.jpg" class="img-fluid testimonial-img" alt="">
-                  </div>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -741,447 +691,258 @@
         </div>
 
       </div>
+    </section><!-- End Testimonials Section -->
 
-    </section><!-- /Testimonials Section -->
+    <!-- ======= Events Section 1======= -->
+    <section id="events" class="events">
+      <div class="container-fluid" data-aos="fade-up">
 
-    <!-- Events Section -->
-    <section id="events" class="events section">
+        <div class="section-header">
+          <h2>Custom Cakes</h2>
+          <p>Our <span>Coustomized</span> Cake Collection</p>
+        </div>
 
-      <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              },
-              "breakpoints": {
-                "320": {
-                  "slidesPerView": 1,
-                  "spaceBetween": 40
-                },
-                "1200": {
-                  "slidesPerView": 3,
-                  "spaceBetween": 1
-                }
-              }
-            }
-          </script>
+        <div class="slides-3 swiper" data-aos="fade-up" data-aos-delay="100">
           <div class="swiper-wrapper">
 
-            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/events-1.jpg)">
-              <h3>Custom Parties</h3>
-              <div class="price align-self-start">$99</div>
-              <p class="description">
-                Quo corporis voluptas ea ad. Consectetur inventore sapiente ipsum voluptas eos omnis facere. Enim facilis veritatis id est rem repudiandae nulla expedita quas.
-              </p>
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/menu/cocoMelonCustomized.jpg)">
+              <h3>Coco Melon Theme</h3>
+            </div><!-- End Event item -->
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/menu/glitter.jpg)">
+              <h3>Glitter</h3>
             </div><!-- End Event item -->
 
-            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/events-2.jpg)">
-              <h3>Private Parties</h3>
-              <div class="price align-self-start">$289</div>
-              <p class="description">
-                In delectus sint qui et enim. Et ab repudiandae inventore quaerat doloribus. Facere nemo vero est ut dolores ea assumenda et. Delectus saepe accusamus aspernatur.
-              </p>
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/menu/footballCustomized.jpg)">
+              <h3>Football Theme</h3>
             </div><!-- End Event item -->
 
-            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/events-3.jpg)">
-              <h3>Birthday Parties</h3>
-              <div class="price align-self-start">$499</div>
-              <p class="description">
-                Laborum aperiam atque omnis minus omnis est qui assumenda quos. Quis id sit quibusdam. Esse quisquam ducimus officia ipsum ut quibusdam maxime. Non enim perspiciatis.
-              </p>
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/menu/naturalCustomized.jpg)">
+              <h3>Natural Theme</h3>
             </div><!-- End Event item -->
 
-            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/events-4.jpg)">
-              <h3>Wedding Parties</h3>
-              <div class="price align-self-start">$899</div>
-              <p class="description">
-                Laborum aperiam atque omnis minus omnis est qui assumenda quos. Quis id sit quibusdam. Esse quisquam ducimus officia ipsum ut quibusdam maxime. Non enim perspiciatis.
-              </p>
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/menu/spiderman.jpg)">
+              <h3>Spiderman Theme</h3>
             </div><!-- End Event item -->
-
           </div>
           <div class="swiper-pagination"></div>
         </div>
 
       </div>
+    </section><!-- End Events Section -->
+     <!-- ======= Events Section 1======= -->
+     <section id="events" class="events">
+      <div class="container-fluid" data-aos="fade-up">
 
-    </section><!-- /Events Section -->
+        <div class="slides-3 swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
 
-    <!-- Chefs Section -->
-    <section id="chefs" class="chefs section">
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/menu/ButterflyCustomizedd.jpg)">
+              <h3>Butterfly Theme</h3>
+            </div><!-- End Event item -->
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>chefs</h2>
-        <p><span>Our</span> <span class="description-title">Proffesional Chefs<br></span></p>
-      </div><!-- End Section Title -->
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/menu/carCustomized.jpg)">
+              <h3>Car Theme</h3>
+            </div><!-- End Event item -->
 
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/chefs/chefs-1.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Master Chef</span>
-                <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</p>
-              </div>
-            </div>
-          </div><!-- End Chef Team Member -->
-
-          <div class="col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/chefs/chefs-2.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Patissier</span>
-                <p>Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.</p>
-              </div>
-            </div>
-          </div><!-- End Chef Team Member -->
-
-          <div class="col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/chefs/chefs-3.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>Cook</span>
-                <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
-              </div>
-            </div>
-          </div><!-- End Chef Team Member -->
-
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/menu/babysharkCustomized.jpg)">
+              <h3>Baby Shark Theme</h3>
+            </div><!-- End Event item -->
+          </div>
+          <div class="swiper-pagination"></div>
         </div>
 
       </div>
+    </section><!-- End Events Section -->
+    <!-- ======= Book A Table Section ======= -->
+    <section id="book-a-table" class="book-a-table">
+      <div class="container" data-aos="fade-up">
 
-    </section><!-- /Chefs Section -->
+        <div class="section-header">
+          <h2>Book A Table</h2>
+          <p>Order <span>Now</span> With Us</p>
+        </div>
 
-    <!-- Book A Table Section -->
-    <section id="book-a-table" class="book-a-table section">
+        <div class="row g-0">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Book A Table</h2>
-        <p><span>Book Your</span> <span class="description-title">Stay With Us<br></span></p>
-      </div><!-- End Section Title -->
+          <div class="col-lg-4 reservation-img" style="background-image: url(assets/img/reservation.jpg);" data-aos="zoom-out" data-aos-delay="200"></div>
 
-      <div class="container">
-
-        <div class="row g-0" data-aos="fade-up" data-aos-delay="100">
-
-          <div class="col-lg-4 reservation-img" style="background-image: url(assets/img/reservation.jpg);"></div>
-
-          <div class="col-lg-8 d-flex align-items-center reservation-form-bg" data-aos="fade-up" data-aos-delay="200">
-            <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form">
+          <div class="col-lg-8 d-flex align-items-center reservation-form-bg">
+            <div class="php-email-form" data-aos="fade-up" data-aos-delay="100">
               <div class="row gy-4">
                 <div class="col-lg-4 col-md-6">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" >
+                  <div class="validate"></div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
+                  <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone" >
+                  <div class="validate"></div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                  <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone" required="">
+                  <input type="date" name="date" class="form-control" id="date" placeholder="Delivery Date" >
+                  <div class="validate"></div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                  <input type="date" name="date" class="form-control" id="date" placeholder="Date" required="">
+                  <input type="text" class="form-control" name="cake name" id="cakename" placeholder="Item Name" >
+                  <div class="validate"></div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                  <input type="time" class="form-control" name="time" id="time" placeholder="Time" required="">
-                </div>
-                <div class="col-lg-4 col-md-6">
-                  <input type="number" class="form-control" name="people" id="people" placeholder="# of people" required="">
+                  <input type="link" class="form-control" name="delivery location" id="location" placeholder="Delivery Location Link">
+                  <div class="validate"></div>
                 </div>
               </div>
-
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
+                <textarea class="form-control" name="address" rows="5" placeholder="Delivery Address" id="address"></textarea>
+                <div class="validate"></div>
               </div>
-
-              <div class="text-center mt-3">
+              <div class="mb-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
-                <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
-                <button type="submit">Book a Table</button>
+                <div class="sent-message" style="display: none;"></div>
               </div>
-            </form>
+              <div class="text-center"><button type="submit" onclick="submitForm()">order now</button></div>
+            </div>
           </div><!-- End Reservation Form -->
 
         </div>
 
       </div>
+    </section><!-- End Book A Table Section -->
 
-    </section><!-- /Book A Table Section -->
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
 
-    <!-- Gallery Section -->
-    <section id="gallery" class="gallery section light-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Gallery</h2>
-        <p><span>Check</span> <span class="description-title">Our Gallery</span></p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "centeredSlides": true,
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              },
-              "breakpoints": {
-                "320": {
-                  "slidesPerView": 1,
-                  "spaceBetween": 0
-                },
-                "768": {
-                  "slidesPerView": 3,
-                  "spaceBetween": 20
-                },
-                "1200": {
-                  "slidesPerView": 5,
-                  "spaceBetween": 20
-                }
-              }
-            }
-          </script>
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-1.jpg"><img src="assets/img/gallery/gallery-1.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-2.jpg"><img src="assets/img/gallery/gallery-2.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-3.jpg"><img src="assets/img/gallery/gallery-3.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-4.jpg"><img src="assets/img/gallery/gallery-4.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-5.jpg"><img src="assets/img/gallery/gallery-5.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-6.jpg"><img src="assets/img/gallery/gallery-6.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-7.jpg"><img src="assets/img/gallery/gallery-7.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-8.jpg"><img src="assets/img/gallery/gallery-8.jpg" class="img-fluid" alt=""></a></div>
-          </div>
-          <div class="swiper-pagination"></div>
+        <div class="section-header">
+          <h2>Contact</h2>
+          <p>Need Help? <span>Contact Us</span></p>
         </div>
-
-      </div>
-
-    </section><!-- /Gallery Section -->
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p><span>Need Help?</span> <span class="description-title">Contact Us</span></p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="mb-5">
-          <iframe style="width: 100%; height: 400px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen=""></iframe>
-        </div><!-- End Google Maps -->
-
         <div class="row gy-4">
 
           <div class="col-md-6">
-            <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
-              <i class="icon bi bi-geo-alt flex-shrink-0"></i>
+            <div class="info-item  d-flex align-items-center">
+              <i class="icon bi bi-map flex-shrink-0"></i>
               <div>
-                <h3>Address</h3>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <h3>Our Address</h3>
+                <p>Cheruthuruthy</p>
               </div>
             </div>
           </div><!-- End Info Item -->
 
           <div class="col-md-6">
-            <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="300">
-              <i class="icon bi bi-telephone flex-shrink-0"></i>
-              <div>
-                <h3>Call Us</h3>
-                <p>+1 5589 55488 55</p>
-              </div>
-            </div>
-          </div><!-- End Info Item -->
-
-          <div class="col-md-6">
-            <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="400">
+            <div class="info-item d-flex align-items-center">
               <i class="icon bi bi-envelope flex-shrink-0"></i>
               <div>
                 <h3>Email Us</h3>
-                <p>info@example.com</p>
+                <p>Cakesboutique@gmail.com</p>
               </div>
             </div>
           </div><!-- End Info Item -->
 
           <div class="col-md-6">
-            <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="500">
-              <i class="icon bi bi-clock flex-shrink-0"></i>
+            <div class="info-item  d-flex align-items-center">
+              <i class="icon bi bi-telephone flex-shrink-0"></i>
               <div>
-                <h3>Opening Hours<br></h3>
-                <p><strong>Mon-Sat:</strong> 11AM - 23PM; <strong>Sunday:</strong> Closed</p>
+                <h3>Call Us</h3>
+                <p>+91 98469 55099</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-md-6">
+            <div class="info-item  d-flex align-items-center">
+              <i class="icon bi bi-share flex-shrink-0"></i>
+              <div>
+                <h3>Opening Hours</h3>
+                <div><strong>Mon-Sun:</strong> 8AM - 10PM
+                </div>
               </div>
             </div>
           </div><!-- End Info Item -->
 
         </div>
 
-        <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="600">
-          <div class="row gy-4">
-
-            <div class="col-md-6">
-              <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-            </div>
-
-            <div class="col-md-6 ">
-              <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-            </div>
-
-            <div class="col-md-12">
-              <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-            </div>
-
-            <div class="col-md-12">
-              <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-            </div>
-
-            <div class="col-md-12 text-center">
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
-
-              <button type="submit">Send Message</button>
-            </div>
-
-          </div>
-        </form><!-- End Contact Form -->
-
       </div>
+    </section><!-- End Contact Section -->
 
-    </section><!-- /Contact Section -->
+  </main><!-- End #main -->
 
-  </main>
-
-  <footer id="footer" class="footer dark-background">
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
 
     <div class="container">
       <div class="row gy-3">
         <div class="col-lg-3 col-md-6 d-flex">
           <i class="bi bi-geo-alt icon"></i>
-          <div class="address">
+          <div>
             <h4>Address</h4>
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p></p>
+            <p>
+              Cheruthuruthy
+            </p>
           </div>
 
         </div>
 
-        <div class="col-lg-3 col-md-6 d-flex">
+        <div class="col-lg-3 col-md-6 footer-links d-flex">
           <i class="bi bi-telephone icon"></i>
           <div>
-            <h4>Contact</h4>
+            <h4>Reservations</h4>
             <p>
-              <strong>Phone:</strong> <span>+1 5589 55488 55</span><br>
-              <strong>Email:</strong> <span>info@example.com</span><br>
+              <strong>Phone:</strong>+91 98469 55099<br>
+              <strong>Email:</strong> Cakesboutique@gmail.com<br>
             </p>
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6 d-flex">
+        <div class="col-lg-3 col-md-6 footer-links d-flex">
           <i class="bi bi-clock icon"></i>
           <div>
             <h4>Opening Hours</h4>
             <p>
-              <strong>Mon-Sat:</strong> <span>11AM - 23PM</span><br>
-              <strong>Sunday</strong>: <span>Closed</span>
+              <strong>Mon-Sun: 8M</strong> - 10PM<br>
             </p>
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6">
+        <div class="col-lg-3 col-md-6 footer-links">
           <h4>Follow Us</h4>
           <div class="social-links d-flex">
-            <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.facebook.com/suadha.anoob?mibextid=LQQJ4d" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/cakes___boutique?igshid=YTQwZjQ0NmI0OA%3D%3D&utm_source=qr" class="instagram"><i class="bi bi-instagram"></i></a>
           </div>
         </div>
 
       </div>
     </div>
 
-    <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Yummy</strong> <span>All Rights Reserved</span></p>
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Yummy</span></strong>. All Rights Reserved
+      </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/ -->
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
 
-  </footer>
+  </footer><!-- End Footer -->
+  <!-- End Footer -->
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Preloader -->
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- Main JS File -->
+  <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
 </body>
